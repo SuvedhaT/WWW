@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding WWW - Suvedha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .author {
+            background: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Understanding the World Wide Web (WWW)</h1>
+    </header>
+    <nav>
+        <a href="#www">What is WWW?</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="www">
+            <h2>What is WWW?</h2>
+            <p>The World Wide Web (WWW) is a system of interlinked hypertext documents accessed via the Internet. It was invented by Tim Berners-Lee in 1989 and has revolutionized the way we share information and connect with one another.</p>
+            <p>Using web browsers, users can access multimedia pages, navigate through links, and interact with content.</p>
+        </section>
+        <section id="about" class="author">
+            <h2>About Me</h2>
+            <p><strong>Name:</strong> Suvedha</p>
+            <p><strong>Profession:</strong> B.Ed Computer Science Student</p>
+            <p>I am passionate about technology and web development. I aim to contribute to the field by creating impactful solutions.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, here are my details:</p>
+            <ul>
+                <li><strong>Email:</strong> suvedha@example.com</li>
+                <li><strong>Phone:</strong> +123-456-7890</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Suvedha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
